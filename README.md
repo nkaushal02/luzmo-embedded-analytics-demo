@@ -96,11 +96,6 @@ Browser                   Express (port 3001)           Luzmo API
 
 The Vite dev server proxies `/api` requests to port 3001, so the browser never needs to know the backend port or make cross-origin requests.
 
-**If you had more time — row-level security:**  
-Luzmo supports `parameter_overrides` in the authorization call. You would pass a user's
-tenant ID or customer ID as a parameter override so the dashboard's data is automatically
-filtered to only that user's rows. The filter lives on the server; the user cannot bypass it.
-
 ---
 
 ## Demo Dataset
